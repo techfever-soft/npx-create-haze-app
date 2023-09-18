@@ -1,21 +1,26 @@
 {
   "name": "create-haze-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create a HazeCMS instance using npx",
-  "main": "index.js",
+  "main": "dist/index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "hazeCMS",
+    "cms",
+    "angular cms"
+  ],
   "author": "",
   "license": "ISC",
   "bin": {
-    "create-haze-app": "./index.js"
+    "create-haze-app": "./dist/index.js"
   },
   "dependencies": {
     "@inquirer/input": "^1.2.11",
     "@inquirer/prompts": "^3.1.1",
+    "chalk": "^5.3.0",
     "inquirer": "^9.2.11"
   },
   "devDependencies": {
