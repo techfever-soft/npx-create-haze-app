@@ -1,5 +1,8 @@
 ![Haze Logo](https://firebasestorage.googleapis.com/v0/b/haze-cms.appspot.com/o/haze__brand-line.png?alt=media&token=b6271507-8b28-4c44-b144-63c1b8a153c0)
 
+![version](https://img.shields.io/npm/v/create-haze-app)
+![downloads](https://img.shields.io/npm/dt/create-haze-app)
+
 # 🚀 HazeCMS (npx)
 
 Welcome to the HazeCMS repository.
@@ -12,7 +15,7 @@ Haze Backend part was built with NodeJS.
 
 ## Getting started
 
-`npx create-haze-app`
+> ## `npx create-haze-app@latest`
 
 ### Front-end features
 

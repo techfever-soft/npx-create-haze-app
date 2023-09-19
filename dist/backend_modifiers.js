@@ -1,8 +1,12 @@
 import * as fs from "fs";
 import chalk from "chalk";
+import { dirname } from "path";
+import { fileURLToPath } from "url";
 import path from "path";
-export const runBackendModifiers = (data) => {
-    const configPath = path.join("./backend", "config.json");
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+export const runBackendModifiers = async (data) => {
+    const configPath = path.join(__dirname, "../../backend", "config.json");
     try {
         const configFileContent = fs.readFileSync(configPath, "utf8");
         const configData = JSON.parse(configFileContent);

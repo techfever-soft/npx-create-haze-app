@@ -1,4 +1,4 @@
 
-export const runFrontendModifiers = (data: any) => {
+export const runFrontendModifiers =  async (data: any) => {
     
 };
